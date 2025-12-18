@@ -82,7 +82,7 @@ export default function Home() {
         <p className="tw-31f2553311">
           안미현(2021). 「전염병 연대기: 런던에서 우한까지」. 『괴테연구』, 제34집, 111–134.
         </p>
-        <p>
+        <p lang="en" className="tw-sources-en">
           World Health Organization. (n.d.). WHO official website.{" "}
           <a 
             href="https://www.who.int" 

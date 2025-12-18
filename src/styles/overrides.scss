@@ -9,7 +9,94 @@
 }
 
 .tw-c7bf264643 .tw-355bb76ab0 {
-  color: rgba(255, 90, 105, 0.98);
+  color: #ff3b4d;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .tw-c7bf264643 .tw-355bb76ab0 {
+    font-size: 26px;
+  }
+}
+
+.tw-0f49af0934 .tw-bb067ed493 {
+  font-size: 24px;
+}
+
+.tw-0f49af0934 .tw-69fdb979b5 {
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  .tw-0f49af0934 .tw-bb067ed493 {
+    font-size: 30px;
+  }
+
+  .tw-0f49af0934 .tw-69fdb979b5 {
+    font-size: 19px;
+  }
+}
+
+.tw-d89972fe17 .tw-38f3a9e165 {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tw-d89972fe17 .tw-b728dfceb5 {
+  font-size: 22px;
+}
+
+.tw-d89972fe17 .tw-0cc4bc91cb,
+.tw-d89972fe17 .tw-0bb0587a5e {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .tw-d89972fe17 .tw-b728dfceb5 {
+    font-size: 24px;
+  }
+
+  .tw-d89972fe17 .tw-0bb0587a5e {
+    font-size: 18px;
+  }
+}
+
+.tw-d89972fe17 .tw-0cc4bc91cb {
+  font-size: 16px;
+}
+
+.tw-sources-en {
+  font-family: Afacad, ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px;
+}
+
+.tw-f9048ae77b .tw-07926c4667 .tw-ec43a2fcfe {
+  font-family: Afacad, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.tw-d92b3274b6 {
+  font-family: Afacad, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.tw-f9048ae77b .tw-c7679208fe {
+  font-family: Afacad, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+}
+
+.tw-c2e25e3815 {
+  font-weight: 500;
+}
+
+.tw-c7679208fe {
+  font-weight: 500;
 }
 
 .app-footer {
@@ -32,4 +119,22 @@
 .app-footer .tw-bd7d0e5f5e p {
   font-size: inherit !important;
   line-height: inherit;
+}
+
+.tw-65cf08baac {
+  font-family: Afacad, ui-sans-serif, system-ui, sans-serif;
+}
+
+.tw-65cf08baac p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.tw-72d51cea24 {
+  font-size: 25px;
+}
+
+.tw-7c8f6a9b4e > p {
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.6;
 }
