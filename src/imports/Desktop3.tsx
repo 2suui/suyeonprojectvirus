@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import imgRectangle28 from "../assets/에이즈.jpg";
-import imgRectangle29 from "../assets/코로나.jpg";
+import imgRectangle28 from "../assets/aids.jpg";
+import imgRectangle29 from "../assets/covid.jpg";
 import imgRectangle27 from "../assets/b0d7bda05f576af2a0d7eede179934bcb0646f72.png";
 import imgRectangle26 from "../assets/0a5599c5d46ae18792bbdfa5d24875305a7e3f31.png";
 import Footer from "../app/components/Footer";

@@ -1,7 +1,7 @@
-import imgBlackDeath from "../../assets/흑사병.png";
-import imgSpanishFlu from "../../assets/스페인독감.png";
-import imgAids from "../../assets/에이즈.jpg";
-import imgCovid from "../../assets/코로나.jpg";
+import imgBlackDeath from "../../assets/black-death.png";
+import imgSpanishFlu from "../../assets/spanish-flu.png";
+import imgAids from "../../assets/aids.jpg";
+import imgCovid from "../../assets/covid.jpg";
 import EpidemicCard from "./EpidemicCard";
 
 export default function TypesSection() {
