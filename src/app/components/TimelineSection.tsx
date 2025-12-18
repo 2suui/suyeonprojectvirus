@@ -6,9 +6,9 @@ interface TimelineItem {
   title: string;
   period: string;
   description: ReactNode;
-  type: string;
+  type: ReactNode;
   transmission: ReactNode;
-  impact: string;
+  impact: ReactNode;
   position: 'left' | 'right';
 }
 
@@ -47,7 +47,11 @@ export default function TimelineSection() {
           인플루엔자 팬데믹
         </>
       ),
-      type: "H1N1 인플루엔자 A 바이러스가 일으키는 급성 호흡기 감염병",
+      type: (
+        <>
+          H1N1 인플루엔자 A 바이러스가 일으키는 <span className="tw-keep-together">급성 호흡기 감염병</span>
+        </>
+      ),
       transmission: "호흡기 비말로 전파되며, 1차 세계대전 병력 이동과 기차·선박을 통한 수송망으로 급속 확산",
       impact: "북미·유럽에서 시작해 전 대륙으로 퍼지며 전 세계 인구의 약 2~3%가 사망할 정도로 높은 치명률을 남김",
       position: 'right'
@@ -57,14 +61,24 @@ export default function TimelineSection() {
       period: "1981-현재",
       description: (
         <>
-          HIV 감염으로 면역체계가 파괴되는 만성 감염병으로, 현재까지 전 세계적 사망자가
+          HIV 감염으로 면역체계가 파괴되는 만성 감염병으로, 현재까지 전 세계적
           <br />
-          매우 많은 현대 대표 팬데믹
+          사망자가 매우 많은 현대 대표 팬데믹
         </>
       ),
-      type: "HIV 바이러스 감염으로 인해 면역 기능이 저하되는 후천성면역결핍증",
+      type: (
+        <>
+          HIV 바이러스 감염으로 인해 면역 기능이{" "}
+          <span className="tw-keep-together">저하되는 후천성면역결핍증</span>
+        </>
+      ),
       transmission: "성적 접촉, 혈액, 출산·수유를 통한 전파",
-      impact: "2017년 기준 연간 약 94만 명 이상이 AIDS 관련 질병으로 사망하며, 여전히 진행 중인 글로벌 감염병",
+      impact: (
+        <>
+          2017년 기준 연간 약 94만 명 이상이 AIDS 관련 질병으로{" "}
+          <span className="tw-keep-together">사망하며, 여전히 진행 중인 글로벌 감염병</span>
+        </>
+      ),
       position: 'left'
     },
     {
